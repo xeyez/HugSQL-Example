@@ -14,5 +14,6 @@
 #_ (test-hugsql/select-all)
 #_ (test-hugsql/select-where-id 1)
 #_ (test-hugsql/delete-where-id 5)
+#_ (test-hugsql/update-set-comment-where-id "한글 시험" 1)
+(test-hugsql/drop-table)
 
-(test-hugsql/update-set-comment-where-id "한글 시험" 1)

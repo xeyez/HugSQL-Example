@@ -12,6 +12,11 @@ create table test (
     created_at timestamp not null default current_timestamp
 );
 
+-- :name drop-test-table :!
+-- :doc Drop test table if exists
+drop table if exists test
+
+
 -- :name select-test-all :? :*
 select * from test;
 

@@ -16,7 +16,12 @@
   (test-connection-sqlvec db/connection))
 
 (defn create-table []
+  "DDL은 -sqlvec를 붙이면 실제로 수행하지 않음. 그저 Debug 용도."
   (create-test-table db/connection))
+
+(defn drop-table []
+  "DDL은 -sqlvec를 붙이면 실제로 수행하지 않음. 그저 Debug 용도."
+  (drop-test-table db/connection))
 
 (defn insert [name comment]
   (insert-test db/connection
