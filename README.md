@@ -13,8 +13,8 @@ FIXME: explanation
 
 
 ## Reference
-https://www.hugsql.org/
-https://github.com/layerware/hugsql/blob/master/hugsql-core/test/hugsql/core_test.clj
+* https://www.hugsql.org/
+* https://github.com/layerware/hugsql/blob/master/hugsql-core/test/hugsql/core_test.clj
 
 ## License
 
