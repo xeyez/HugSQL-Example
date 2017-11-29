@@ -10,9 +10,10 @@
 
 
 ;;아래 함수들은 sql 파일에 정의한 name으로 자동 생성
+;; 함수뒤에 -sqlvec을 붙이면 query까지 볼 수 있음 (Debug용)
 
 (defn test-conn []
-  (test-connection db/connection))
+  (test-connection-sqlvec db/connection))
 
 (defn create-table []
   (create-test-table db/connection))
