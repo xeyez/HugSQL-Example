@@ -18,10 +18,10 @@ drop table if exists test
 
 
 -- :name select-test-all :? :*
-select * from test;
+select SQL_CACHE * from test;
 
 -- :name select-test-where-id :? :1
-select * from test
+select SQL_CACHE * from test
 where id = :id;
 
 -- :name insert-test :execute :n
