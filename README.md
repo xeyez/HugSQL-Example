@@ -1,6 +1,8 @@
 # hugsql-example
 
+Clojure 기반에 HugSQL Library를 이용한 예제.
 
+이 때, Connector, DBMS는 MySQL를 이용.
 
 
 ## Usage
