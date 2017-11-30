@@ -28,7 +28,8 @@
     {:name name, :comment comment}))
 
 (defn select-all []
-  (select-test-all db/connection))
+  (let [result (select-test-all db/connection)]
+    (if (zero? (count result)) nil result)))
 
 (defn select-where-id [id]
   (select-test-where-id db/connection {:id id}))
